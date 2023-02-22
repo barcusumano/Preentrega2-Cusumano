@@ -1,0 +1,206 @@
+/* Personalizacion bootstrap*/
+
+/* navbar */ 
+
+body {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #262626;
+    padding-left: 10px;
+
+}
+
+.nav-link {
+    color: grey;
+}
+
+
+/* body home */
+
+.homephoto {
+    float: right;
+    min-height: auto;
+    padding: 0px;
+    
+
+}
+
+.hometitle {
+    color: #f0c94a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    z-index: 1;
+
+    
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin-right: 0px;
+    
+}
+
+.icono {
+    width: 35px;
+    padding: 8px;
+}
+
+/* cuerpo who am i */
+
+.bgwhoami {
+    background-color: #262626;
+}
+
+.fotoperfil {
+    float: left;
+    min-height: auto;
+    padding-left: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+.whoami {
+    color: #f0c94a;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+}
+
+.text1 {
+    color: #D9D9D9;
+    text-align:left;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-overflow: scroll;
+}
+
+/* cuerpo que hago */
+
+.bgwhatdoido {
+   background-color: #F2F2F2;
+}
+
+.quehago {
+    color: #f0c94a;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text2 {
+    color: #262626;
+    text-align:left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+.fotoquehago1 {
+    margin-bottom: 20px;
+}
+
+/* cuerpo whereonearth */
+
+.canal {
+    float: left;
+    min-height: auto;
+    padding: 0px;
+    margin-right: 0px;
+}
+
+.amsterdam {
+    color: #f0c94a;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.text3 {
+    color: #262626;
+    text-align:left;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-overflow: scroll;
+}
+
+
+.amsbg {
+    background-color: #F2F2F2;
+}
+
+.maprow {
+    background-color: #262626;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.gmapscont{
+    display: flex;
+    justify-content: end;
+}
+
+
+/* cuerpo contacto */
+
+
+.bgcontacto {
+    min-height: 100vh;
+    background-image: url(../media/Byron3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hitme {
+    display: flex;
+    justify-content: start;
+
+}
+.hitmeup {
+    color: #f0c94a;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: nowrap;
+
+}
+
+form {
+    justify-content: center;
+}
+
+
+@media (max-width: 425px) {
+    .hitmeup {
+        color: #f07e4a;
+    }
+
+    .hitme {
+        text-align: end;
+        margin-right: 5px;
+
+    }
+
+    }
+    
